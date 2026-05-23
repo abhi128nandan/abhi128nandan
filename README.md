@@ -29,3 +29,11 @@ I'm a B.Tech CS student passionate about full-stack development and machine lear
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
+
+---
+
+📊 **Coding Stats:**
+
+<a href="https://leetcode.com/u/0961kD4aZz/">
+  <img src="https://leetcard.jacoblin.cool/0961kD4aZz?theme=dark&font=baloo&ext=activity" alt="LeetCode Stats" />
+</a>
