@@ -1,39 +1,48 @@
-# Hi there 👋
+# Hi, I'm Abhinandan 👋
 
-I'm a B.Tech CS student passionate about full-stack development and machine learning. I love turning complex problems into clean, high-performance code.
+B.Tech CS student building full-stack applications and exploring how production codebases work — including contributing fixes upstream to open-source projects. I work primarily with TypeScript/Next.js on the frontend and Node.js or Python/FastAPI on the backend, with PostgreSQL/Supabase for data.
 
----
+## Open Source
 
-💻 **Tech Stack:**
+- **Node.js** ([`nodejs/node#65540`](https://github.com/nodejs/node/pull/65540)) — Fixed a bug where `fs.cp()` and `fs.cpSync()` (when a filter is used) didn't restore directory timestamps when `preserveTimestamps: true` was set, even though file timestamps were restored correctly. *Open PR; approved by two Node.js maintainers and currently going through CI.*
 
-<p align="left">
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  
-  <br><br>
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" alt="Express.js" />
+- **Dokploy** ([`Dokploy/dokploy#5176`](https://github.com/Dokploy/dokploy/pull/5176)) — Fixed two notification bugs: a `serverThreshold` setting that wasn't being saved for Gotify/Ntfy alerts, and a Teams notification call that wasn't wrapped in error handling and could break the entire notification loop on failure. *Open PR; awaiting maintainer review.*
 
-  <br><br>
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Oracle_SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
-  
-  <br><br>
-  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
+## Tech Stack
 
----
+| Category | Technologies |
+| --- | --- |
+| Languages | TypeScript, JavaScript, Python, C++ |
+| Frontend | React, Next.js, Tailwind CSS |
+| Backend | Node.js, FastAPI |
+| Data & Infrastructure | PostgreSQL, Supabase, Docker |
+| AI / LLM | OpenAI API, Groq |
+| Tooling | Git, Vercel, Vitest |
 
-📊 **Coding Stats:**
+## What I'm Working On
 
-<a href="https://leetcode.com/u/0961kD4aZz/">
-  <img src="https://leetcard.jacoblin.cool/0961kD4aZz?theme=dark&font=baloo&ext=activity" alt="LeetCode Stats" />
-</a>
+- Building **[Merit AI](https://github.com/abhi128nandan/Merit-AI-Resume-Analyzer)**, a resume-to-job-description matching tool with a Python/FastAPI backend and Next.js frontend
+- Contributing bug fixes and regression tests to open-source projects such as Node.js and Dokploy
+- Working through DSA problems consistently on LeetCode
+
+## Projects
+
+### [Cashpilot](https://github.com/abhi128nandan/Cashpilot) · [Live](https://cashpilot-mauve.vercel.app/)
+
+A personal finance tracker (work in progress) built with Next.js, TypeScript, Supabase, and PostgreSQL. Uses row-level security to isolate each user's data at the database level. Includes budget tracking, recurring-transaction detection, and an AI assistant using the OpenAI API through the Vercel AI SDK to answer questions about transaction data. Includes a Vitest test suite.
+
+### [AI-DEX](https://github.com/abhi128nandan/AI-DEX-)
+
+A platform for discovering and voting on AI tools, roughly a Product Hunt for AI. Built with Next.js 16 (App Router / Server Components) and Supabase for authentication, data, and row-level security. Voting uses an atomic PostgreSQL RPC to avoid race conditions during concurrent votes. Includes an admin dashboard for moderating submissions.
+
+### [Merit AI — Resume Analyzer](https://github.com/abhi128nandan/Merit-AI-Resume-Analyzer)
+
+A resume-to-job-description matching tool with a Python/FastAPI backend and Next.js frontend. The backend parses PDF/DOCX resumes and uses a deterministic weighted scoring model across skills, experience, tooling, and education rather than letting an LLM generate the score directly. A two-pass LLM step using Groq Llama 3.3 / Gemini cross-checks claimed skills against the resume text to reduce false matches.
+
+## Coding / Problem Solving
+
+**272 problems solved** on [LeetCode](https://leetcode.com/u/0961kD4aZz/), primarily in C++, with 50-day solving streaks in 2025 and 2026.
+
+## Connect
+
+[GitHub](https://github.com/abhi128nandan) · [LeetCode](https://leetcode.com/u/0961kD4aZz/)
