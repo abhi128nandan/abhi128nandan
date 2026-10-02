@@ -74,9 +74,7 @@ practice: solving DSA problems on LeetCode 🧩
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
 <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
 
-**AI / ML**
-<br/>
-<img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+
 
 **Tools & Platforms**
 <br/>
@@ -95,7 +93,7 @@ practice: solving DSA problems on LeetCode 🧩
 <td width="50%" valign="top">
 
 ### 💸 [Cashpilot](https://github.com/abhi128nandan/Cashpilot)
-**Finance Tracking App** *(in progress)*
+**Finance Tracking App**
 
 A full-stack personal finance tracker built with Next.js, Supabase and TypeScript for keeping spending organized in one place.
 
@@ -124,15 +122,6 @@ A full-stack Next.js platform for exploring, ranking and saving curated AI tools
 </table>
 
 <br/>
-
-## 🧭 Currently
-
-```
-Cashpilot ─ building ──── full-stack finance tracker (Next.js · Supabase · TypeScript)
-AI-DEX ──── shipped ───── curated AI tools platform (Next.js · TypeScript)
-LeetCode ── practicing ── data structures & algorithms
-Next ────── exploring ─── machine learning with Python & Scikit-learn
-```
 
 <br/>
 
